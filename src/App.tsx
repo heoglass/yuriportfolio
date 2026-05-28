@@ -4,6 +4,7 @@ import { createGlobalStyle } from "styled-components";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import ProjectDetail from "./pages/ProjectDetail";
 
 const GlobalStyle = createGlobalStyle`
   html, body, div, span, applet, object, iframe,
@@ -77,6 +78,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
           <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/projects/:slug" element={<ProjectDetail />}></Route>
         </Routes>
       </BrowserRouter>
     </>
