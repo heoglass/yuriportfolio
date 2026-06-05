@@ -56,7 +56,7 @@ const DescriptionContainer = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     row-gap: 30px;
-    padding: 10px 0 0;
+    padding: 10px 0 20px;
   }
 `;
 // const ProfileImg = styled.div`
@@ -94,6 +94,7 @@ const Subtitle = styled.p`
   padding-bottom: 5px;
   margin-bottom: 15px;
   border-bottom: 1px solid #2f2e33;
+  color: #2f2e33;
 `;
 const InfoContainer = styled.div`
   /* padding: 10px; */
@@ -124,6 +125,7 @@ const Skilcontainer = styled.div`
 `;
 const SkilItemContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   column-gap: 12px;
 `;
 const SkilItem = styled.div`

@@ -10,11 +10,12 @@ const Card = styled.article`
   border: 3px solid #ffb3c3;
 `;
 
-const Thumbnail = styled.div<{ $image: string }>`
+const Thumbnail = styled.div<{ $image: string; $web: boolean }>`
   height: 260px;
   background-image: url(${({ $image }) => $image});
-  background-size: cover;
+  background-size: ${({ $web }) => ($web ? "cover" : "contain")};
   background-position: center;
+  background-repeat: no-repeat;
 `;
 
 const Content = styled.div`
@@ -49,7 +50,10 @@ export default function ProjectCard({ project }: { project: any }) {
   const navigate = useNavigate();
   return (
     <Card onClick={() => navigate(`/projects/${project.slug}`)}>
-      <Thumbnail $image={project.image} />
+      <Thumbnail
+        $image={project.image}
+        $web={project.slug === "esaroapp" ? false : true}
+      />
 
       <Content>
         <Type>{project.type}</Type>
