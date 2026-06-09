@@ -171,7 +171,7 @@ export default function About() {
 
             <InfoText>허유리</InfoText>
             <InfoText>gjdbfl45@naver.com</InfoText>
-            <InfoText>https://github.com/heoglass</InfoText>
+            {/* <InfoText>https://github.com/heoglass</InfoText> */}
           </InfoContainer>
           <CareerContainer>
             <Subtitle>Career</Subtitle>
