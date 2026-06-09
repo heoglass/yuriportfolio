@@ -18,7 +18,7 @@ const SubDescription = styled.div`
   line-height: 24px;
 
   span {
-    font-weight: 600;
+    font-weight: 700;
   }
 `;
 const SubContainer = styled.div<{ $reverse?: boolean }>`
@@ -81,6 +81,8 @@ export default function Project01() {
         <p>
           React 기반 관리자 시스템으로 운영자가 회원, 권한, 푸시 알림, 쿠폰 등을
           관리할 수 있도록 구축한 프로젝트입니다.
+          <br />
+          <br />
         </p>
         <p>
           <span>기술 스택</span>

@@ -72,7 +72,7 @@ const ProfileImg = styled.img`
   width: 200px;
   height: 200px;
   border-radius: 100px;
-  border: 1px solid BEBEBE;
+  border: 3px solid #2a234f;
 `;
 
 const DescriptionText = styled.p`

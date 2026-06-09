@@ -27,7 +27,7 @@ const ImageBox = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 420px;
-  background-color: #222;
+  background-color: #f4f2f7;
   /* object-fit: cover; */
   object-fit: contain;
   display: block;

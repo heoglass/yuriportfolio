@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import Project01 from "./privateComponents/Project01";
 import Project02 from "./privateComponents/Project02";
 import Project03 from "./privateComponents/Project03";
+import { useEffect } from "react";
 
 const Container = styled.main`
   width: 100%;
@@ -41,6 +42,10 @@ export default function ProjectDetail() {
   // const navigate = useNavigate();
 
   const project = ProjectList.find((item) => item.slug === slug);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   if (!project) {
     return (
