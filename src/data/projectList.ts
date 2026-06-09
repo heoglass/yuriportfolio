@@ -1,6 +1,7 @@
 import IMG_ADMIN_THUMBNAIL from "../assets/images/admin-login1.png";
 import IMG_LANDING_THUMBNAIL from "../assets/images/landing1.png";
 import IMG_APP_THUMBNAIL from "../assets/images/esaroapp1.png";
+import IMG_HWANSULDANG_THUMBNAIL from "../assets/images/hwansuldang.png";
 import IMG_ADMIN_JOIN from "../assets/images/admin-login2.png";
 import IMG_ADMIN_AUTHORITY1 from "../assets/images/admin-authority1.png";
 import IMG_ADMIN_AUTHORITY2 from "../assets/images/admin-authority2.png";
@@ -82,12 +83,12 @@ export const ProjectList = [
   },
   // {
   //   pid: 4,
-  //   slug: "wedding-invitation",
-  //   pname: "모바일 청첩장",
-  //   type: "React · TypeScript",
-  //   desc: "React · TypeScript 기반 모바일 청첩장 웹 서비스",
-  //   contribution: "개인 프로젝트",
-  //   image: IMG_APP_THUMBNAIL,
+  //   slug: "hwansuldang",
+  //   pname: "환술당",
+  //   type: "E-Commerce Website",
+  //   desc: "Cafe24 기반 전통 공예 브랜드 쇼핑몰 구축",
+  //   contribution: "퍼블리싱 100% ",
+  //   image: IMG_HWANSULDANG_THUMBNAIL,
   // },
 ];
 

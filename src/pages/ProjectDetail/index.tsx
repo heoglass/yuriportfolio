@@ -6,6 +6,7 @@ import Project01 from "./privateComponents/Project01";
 import Project02 from "./privateComponents/Project02";
 import Project03 from "./privateComponents/Project03";
 import { useEffect } from "react";
+import Project04 from "./privateComponents/Project04";
 
 const Container = styled.main`
   width: 100%;
@@ -67,6 +68,7 @@ export default function ProjectDetail() {
         {project.slug === "admin" && <Project01 />}
         {project.slug === "landing" && <Project02 />}
         {project.slug === "esaroapp" && <Project03 />}
+        {project.slug === "hwansuldang" && <Project04 />}
       </ContentsContainer>
     </Container>
   );
