@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { createGlobalStyle } from "styled-components";
 import Home from "./pages/Home";
@@ -81,6 +82,7 @@ function App() {
           <Route path="/projects/:slug" element={<ProjectDetail />}></Route>
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </>
   );
 }

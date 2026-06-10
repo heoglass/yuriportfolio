@@ -1,7 +1,7 @@
 import IMG_ADMIN_THUMBNAIL from "../assets/images/admin-login1.png";
 import IMG_LANDING_THUMBNAIL from "../assets/images/landing1.png";
 import IMG_APP_THUMBNAIL from "../assets/images/esaroapp1.png";
-import IMG_HWANSULDANG_THUMBNAIL from "../assets/images/hwansuldang.png";
+// import IMG_HWANSULDANG_THUMBNAIL from "../assets/images/hwansuldang.png";
 import IMG_ADMIN_JOIN from "../assets/images/admin-login2.png";
 import IMG_ADMIN_AUTHORITY1 from "../assets/images/admin-authority1.png";
 import IMG_ADMIN_AUTHORITY2 from "../assets/images/admin-authority2.png";
