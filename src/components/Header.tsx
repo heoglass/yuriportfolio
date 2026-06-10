@@ -64,6 +64,10 @@ const BackButton = styled.button`
 `;
 const BackArrowImg = styled.img`
   width: 40px;
+
+  @media (max-width: 768px) {
+    width: 25px;
+  }
 `;
 export default function Header() {
   const navigate = useNavigate();
