@@ -1,7 +1,7 @@
 import IMG_ADMIN_THUMBNAIL from "../assets/images/admin-login1.png";
 import IMG_LANDING_THUMBNAIL from "../assets/images/landing1.png";
 import IMG_APP_THUMBNAIL from "../assets/images/esaroapp1.png";
-// import IMG_HWANSULDANG_THUMBNAIL from "../assets/images/hwansuldang.png";
+import IMG_HWANSULDANG_THUMBNAIL from "../assets/images/hwansuldang.png";
 import IMG_ADMIN_JOIN from "../assets/images/admin-login2.png";
 import IMG_ADMIN_AUTHORITY1 from "../assets/images/admin-authority1.png";
 import IMG_ADMIN_AUTHORITY2 from "../assets/images/admin-authority2.png";
@@ -42,6 +42,24 @@ import IMG_APP9 from "../assets/images/esaroapp9.png";
 import IMG_APP10 from "../assets/images/esaroapp10.png";
 import IMG_APP11 from "../assets/images/esaroapp11.png";
 import IMG_APP12 from "../assets/images/esaroapp12.png";
+import IMG_H_MAIN_1 from "../assets/images/h-main1.png";
+import IMG_H_MAIN_2 from "../assets/images/h-main2.png";
+import IMG_H_MAIN_3 from "../assets/images/h-main3.png";
+import IMG_H_MAIN_4 from "../assets/images/h-main4.png";
+import IMG_H_MAIN_5 from "../assets/images/h-main5.png";
+import IMG_H_MAIN_6 from "../assets/images/h-main6.png";
+import IMG_H_MAIN_7 from "../assets/images/h-main7.png";
+import IMG_H_LIST_1 from "../assets/images/h-list1.png";
+import IMG_H_LIST_2 from "../assets/images/h-list2.png";
+import IMG_H_LIST_3 from "../assets/images/h-list3.png";
+import IMG_H_LIST_4 from "../assets/images/h-list4.png";
+import IMG_H_LIST_5 from "../assets/images/h-list5.png";
+import IMG_H_LIST_6 from "../assets/images/h-list6.png";
+import IMG_H_LIST_7 from "../assets/images/h-list7.png";
+import IMG_H_DETAIL_1 from "../assets/images/h-detail1.png";
+import IMG_H_DETAIL_2 from "../assets/images/h-detail2.png";
+import IMG_H_INFO_1 from "../assets/images/h-info1.jpeg";
+import IMG_H_INFO_2 from "../assets/images/h-info2.png";
 
 export const LANDING = [
   IMG_LANDING_THUMBNAIL,
@@ -81,15 +99,15 @@ export const ProjectList = [
     contribution: "퍼블리싱 100% · 프론트엔드 10%",
     image: IMG_APP_THUMBNAIL,
   },
-  // {
-  //   pid: 4,
-  //   slug: "hwansuldang",
-  //   pname: "환술당",
-  //   type: "E-Commerce Website",
-  //   desc: "Cafe24 기반 전통 공예 브랜드 쇼핑몰 구축",
-  //   contribution: "퍼블리싱 100% ",
-  //   image: IMG_HWANSULDANG_THUMBNAIL,
-  // },
+  {
+    pid: 4,
+    slug: "hwansuldang",
+    pname: "환술당",
+    type: "E-Commerce Website",
+    desc: "Cafe24 기반 전통 공예 브랜드 쇼핑몰 구축",
+    contribution: "퍼블리싱 100% ",
+    image: IMG_HWANSULDANG_THUMBNAIL,
+  },
 ];
 
 export const loginImages = [
@@ -342,5 +360,103 @@ export const myInfoImages = [
     src: IMG_APP12,
     alt: "나의정보 이미지",
     // caption: "나의정보 이미지입니다.",
+  },
+];
+export const hMainImages = [
+  {
+    src: IMG_H_MAIN_1,
+    alt: "환술당 메인",
+    // caption: "환술당 메인 이미지입니다.",
+  },
+  {
+    src: IMG_H_MAIN_2,
+    alt: "환술당 메인",
+    // caption: "환술당 메인 이미지입니다.",
+  },
+  {
+    src: IMG_H_MAIN_3,
+    alt: "환술당 메인",
+    // caption: "환술당 메인 이미지입니다.",
+  },
+  {
+    src: IMG_H_MAIN_4,
+    alt: "환술당 메인",
+    // caption: "환술당 메인 이미지입니다.",
+  },
+  {
+    src: IMG_H_MAIN_5,
+    alt: "환술당 메인",
+    // caption: "환술당 메인 이미지입니다.",
+  },
+  {
+    src: IMG_H_MAIN_6,
+    alt: "환술당 메인",
+    // caption: "환술당 메인 이미지입니다.",
+  },
+  {
+    src: IMG_H_MAIN_7,
+    alt: "환술당 메인",
+    // caption: "환술당 메인 이미지입니다.",
+  },
+];
+export const hListImages = [
+  {
+    src: IMG_H_LIST_1,
+    alt: "환술당 상품 리스트",
+    // caption: "환술당 상품 리스트 이미지입니다.",
+  },
+  {
+    src: IMG_H_LIST_2,
+    alt: "환술당 상품 리스트",
+    // caption: "환술당 상품 리스트 이미지입니다.",
+  },
+  {
+    src: IMG_H_LIST_3,
+    alt: "환술당 상품 리스트",
+    // caption: "환술당 상품 리스트 이미지입니다.",
+  },
+  {
+    src: IMG_H_LIST_4,
+    alt: "환술당 상품 리스트",
+    // caption: "환술당 상품 리스트 이미지입니다.",
+  },
+  {
+    src: IMG_H_LIST_5,
+    alt: "환술당 상품 리스트",
+    // caption: "환술당 상품 리스트 이미지입니다.",
+  },
+  {
+    src: IMG_H_LIST_6,
+    alt: "환술당 상품 리스트",
+    // caption: "환술당 상품 리스트 이미지입니다.",
+  },
+  {
+    src: IMG_H_LIST_7,
+    alt: "환술당 상품 리스트",
+    // caption: "환술당 상품 리스트 이미지입니다.",
+  },
+];
+export const hDetailImages = [
+  {
+    src: IMG_H_DETAIL_1,
+    alt: "환술당 상품 상세",
+    // caption: "환술당 상품 상세 이미지입니다.",
+  },
+  {
+    src: IMG_H_DETAIL_2,
+    alt: "환술당 상품 상세",
+    // caption: "환술당 상품 상세 이미지입니다.",
+  },
+];
+export const hInfoImages = [
+  {
+    src: IMG_H_INFO_1,
+    alt: "환술당 소개",
+    // caption: "환술당 소개 이미지입니다.",
+  },
+  {
+    src: IMG_H_INFO_2,
+    alt: "환술당 소개",
+    // caption: "환술당 소개 이미지입니다.",
   },
 ];
